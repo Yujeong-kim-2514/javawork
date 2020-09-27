@@ -1,0 +1,19 @@
+처음 깃에서 터미널로 불러올떄
+git clone URL(HTTP/SSH)
+
+터미널에서 깃 불러 온 뒤 수정 하고 난뒤 수정된 파일 확인
+git status
+
+수정된 파일 add 하는 법
+git add -A (전체파일
+git add file-name
+
+commit after added file
+git commit -m "ㅅㅜ정내용"
+
+로컬에서 브랜치로 푸쉬
+git commit push
+
+
+브랜치 바꾸는 법
+git checkout
