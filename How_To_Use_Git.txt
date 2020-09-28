@@ -15,5 +15,16 @@ git commit -m "ㅅㅜ정내용"
 git commit push
 
 
-브랜치 바꾸는 법
-git checkout
+추가적인 브런치를 생성 후, 작업 뒤 master에 추가 하는거 까지
+
+1.git branch branch.name
+2.git checkout branch.name
+3. work file.name.txt(txt file)
+4. git add file.name
+5. git commit -m file.name
+6. git push --set-upstream origin current_branch
+7.git checkout master
+8. git merge current_branch
+9. git push
+
+터미널에서 파일 열어보는법 cat filename
